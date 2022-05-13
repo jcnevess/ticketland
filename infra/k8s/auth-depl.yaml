@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: juliocnevess/auth
+          image: gcr.io/ticketland-dev/auth
 ---
 apiVersion: v1
 kind: Service
